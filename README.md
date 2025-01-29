@@ -28,4 +28,4 @@ Steps to Run
 - Playwright configurations in "playwright.config.ts" file
 
 ## Test automation approach
-All API test cases listed here are automated: https://spotless-potassium-dc4.notion.site/Neptune-API-Test-Task-Test-Results-189e5bd7762980bcb156c9beb7a04e8a using Playwright native APIRequestContext for API testing. Parametrized tests are used where possible.
+All API test cases listed here https://spotless-potassium-dc4.notion.site/Neptune-API-Test-Task-Test-Results-189e5bd7762980bcb156c9beb7a04e8a are automated using Playwright's native APIRequestContext for API testing. Parametrized tests are used where possible. API test suite is run daily against the test environment on Github Actions workflow and additionaly can be run with manual trigger.
