@@ -18,7 +18,7 @@ Steps to Run
  3. Select the "Playwright API Tests" workflow
  4. Click "Run" to run the api tests with manual trigger
  5. Wait for workflow run to complete
- 6. Open the workflow and download test-report form artifacts
+ 6. Open the workflow and download test-report from artifacts
  7. Open the html file to view the report
 
 ## Test Automatin Project structure
