@@ -1,0 +1,33 @@
+name: Playwright API Tests
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main 
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Playwright API Tests
+        run: npx playwright test
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+
+      - name: Upload test reports
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-report
+          path: test-report/
+          retention-days: 30
