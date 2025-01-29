@@ -8,7 +8,7 @@ Steps to Run
  1. Clone the repository
  2. Add ".env" file with valid "API_TOKEN"
  3. Run ```npm install```
- 4. Run ```npx playwright test``` to runn all the tests
+ 4. Run ```npx playwright test``` to run all the tests
  5. Run ```npx playwright show-report test-report``` to generate and view the test report
 
 ## How to run on CI/CD
