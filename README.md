@@ -15,7 +15,7 @@ Steps to Run
 Steps to Run
  1. Open Github repository
  2. Go to "Actions" tab
- 3. Select the "api-tests" workflow
+ 3. Select the "Playwright API Tests" workflow
  4. Click "Run" to run the api tests with manual trigger
  5. Wait for workflow run to complete
  6. Open the workflow and download test-report form artifacts
