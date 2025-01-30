@@ -8,17 +8,17 @@ Steps to Run
  1. Clone the repository
  2. Add ".env" file with valid "API_TOKEN"
  3. Run ```npm install```
- 4. Run ```npx playwright test``` to runn all the tests
+ 4. Run ```npx playwright test``` to run all the tests
  5. Run ```npx playwright show-report test-report``` to generate and view the test report
 
 ## How to run on CI/CD
 Steps to Run
  1. Open Github repository
  2. Go to "Actions" tab
- 3. Select the "api-tests" workflow
+ 3. Select the "Playwright API Tests" workflow
  4. Click "Run" to run the api tests with manual trigger
  5. Wait for workflow run to complete
- 6. Open the workflow and download test-report form artifacts
+ 6. Open the workflow and download test-report from artifacts
  7. Open the html file to view the report
 
 ## Test Automation Project structure
